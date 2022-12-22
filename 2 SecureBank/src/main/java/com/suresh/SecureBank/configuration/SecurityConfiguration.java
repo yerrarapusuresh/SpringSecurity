@@ -26,11 +26,11 @@ public class SecurityConfiguration {
 //	 return new InMemoryUserDetailsManager(adminUser, user);
 //	}
 	
-	@Bean
-	UserDetailsService jdbcUsers(DataSource dataSource) {
-		return new JdbcUserDetailsManager(dataSource);
-	}
-	
+//	@Bean
+//	UserDetailsService jdbcUsers(DataSource dataSource) {
+//		return new JdbcUserDetailsManager(dataSource);
+//	}
+//	
 	
 	@Bean
 	PasswordEncoder passwordEncoder() {
