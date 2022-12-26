@@ -12,6 +12,6 @@ import com.suresh.SecureBank.model.Customers;
 public interface CustomerRepository extends CrudRepository<Customers, Long> {
 
 
-	public List<Customers> findByEmail(String email);
+	public List<Customers> findByEmail(String email); 
 
 }
